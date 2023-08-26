@@ -11,18 +11,40 @@ body {
     width: 608px;
     height: 418px;
     margin: auto;
+    z-index: 10;
 }
 
 .contenu p {
     text-align: left;
     padding: 80px 50px;
     margin: 0px;
+    font-family: 'Lucida Console', sans-serif;
+    font-size: 13px;
+    line-height: 15px;
 }
 
 .the-bar {
     background-image: url(images/Wxpbar.jpg);
     background-repeat: no-repeat;
     height: 30px;
-    padding: 0px;
     margin-top: 435px;
+    padding: 6px 0px 0px 105px;
+    position: fixed;
+    width: 100%;
+}
+
+.the-bar a {
+    padding: 0px 3px;
+}
+
+.the-bar img{
+    width: 20px;
+    padding: 0px;
+    /* display: none; */
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px;
+}
+
+.the-bar:hover img {
+    display: inline ;
 }
