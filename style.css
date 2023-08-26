@@ -27,7 +27,7 @@ body {
     background-image: url(images/Wxpbar.jpg);
     background-repeat: no-repeat;
     height: 30px;
-    margin-top: 435px;
+    margin-top: 403px;
     padding: 6px 0px 0px 105px;
     position: fixed;
     width: 100%;
@@ -40,7 +40,7 @@ body {
 .the-bar img{
     width: 20px;
     padding: 0px;
-    /* display: none; */
+    display: none;
     border-radius: 5px;
     box-shadow: 1px 1px 1px;
 }
