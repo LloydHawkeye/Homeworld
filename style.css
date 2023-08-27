@@ -5,6 +5,12 @@ body {
 }
 
 .contenu {
+    width: 608px;
+    height: 418px;
+    margin: auto;
+}
+
+.notepad {
     background-image: url(images/notepad2.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -12,15 +18,20 @@ body {
     height: 418px;
     margin: auto;
     z-index: 10;
+    border-radius: 9px 9px 0px 0px;
 }
 
-.contenu p {
+.notepad p {
     text-align: left;
-    padding: 80px 50px;
+    padding: 0px 0px 10px 50px;
     margin: 0px;
     font-family: 'Lucida Console', sans-serif;
     font-size: 13px;
     line-height: 15px;
+}
+
+.win-text{
+    padding-top: 80px;
 }
 
 .the-bar {
