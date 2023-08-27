@@ -19,6 +19,8 @@ body {
     margin: auto;
     z-index: 10;
     border-radius: 9px 9px 0px 0px;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
 .notepad p {
@@ -58,4 +60,13 @@ body {
 
 .the-bar:hover img {
     display: inline ;
+}
+
+.button-close img{
+    width: 25px;
+    margin: 4px 4px;
+}
+
+.button-close:hover .notepad{
+    display: none;
 }
