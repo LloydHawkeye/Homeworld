@@ -102,8 +102,19 @@ body {
     background-color:rgb(11, 97, 255);
 }
 
-#start-button {
+.start-wxp img{
     position: absolute;
-    display: inline;
     left: 0px;
+}
+
+#start-button-hover, #start-button-active{
+    display: none;
+}
+
+.start-wxp:hover #start-button-hover {
+    display: inline;
+}
+
+.start-wxp:active #start-button-active {
+    display: inline;
 }
