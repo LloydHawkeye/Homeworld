@@ -37,13 +37,13 @@ body {
 }
 
 .the-bar {
-    background-image: url(images/Wxpbar.jpg);
-    background-repeat: no-repeat;
+    background-image: url(images/Wxp-bluebar.jpg);
     padding: 0px 0px 0px 105px;
     position: fixed;
     width: 100%;
     bottom: 0px;
     height: 30px;
+
 }
 
 .the-bar a {
