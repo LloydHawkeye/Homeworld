@@ -24,10 +24,28 @@
     </main>
     <footer>
         <div class="the-bar">
-            <a href="https://twitter.com/Lloyd_hawkeye"><img src="images/twitter.png" alt="twitter logo"/></a>
-            <a href="https://www.twitch.tv/lloydhawkeye"><img src="images/twitch.png" alt="Twitch logo"/></a>
-            <a href="https://github.com/LloydHawkeye"><img id="github" src="images/github.jpg" alt="github logo"/></a>
-        </div>
+                <div class="start-wxp">
+                    <img src="images/start-button.png" id="start-button" alt="bouton démarrer windows xp">
+                    <img src="images/start-button-hover.png" id="start-button-hover" alt="bouton démarrer windows xp">
+                    <img src="images/start-button-active.png" id="start-button-active" alt="bouton démarrer windows xp">
+                </div>
+                <a href="https://twitter.com/Lloyd_hawkeye"><img class="social-button" src="images/twitter.png" alt="twitter logo"/></a>
+                <a href="https://www.twitch.tv/lloydhawkeye"><img class="social-button" src="images/twitch.png" alt="Twitch logo"/></a>
+                <a href="https://github.com/LloydHawkeye"><img class="social-button" src="images/github.jpg" alt="github logo"/></a>
+                <div class="heure">
+                    <SCRIPT LANGUAGE="JavaScript">
+                        var maintenant=new Date();
+                        var heure=maintenant.getHours();
+                        var minutes=maintenant.getMinutes();
+                        minutes = checkTime(minutes);
+                        document.write(heure,":",minutes);
+                        function checkTime(i) {
+                        if (i < 10) {i = "0" + i};
+                        return i;
+                        }
+                    </SCRIPT>
+                </div>
+            </div>
     </footer>
 </body>
 </html>
