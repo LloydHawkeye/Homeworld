@@ -1,6 +1,7 @@
 body {
     background-image: url(images/Wxp-bg.jpg);
     background-repeat: no-repeat;
+    background-size: cover;
     margin: 0px;
 }
 
