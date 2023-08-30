@@ -118,3 +118,14 @@ body {
 .start-wxp:active #start-button-active {
     display: inline;
 }
+
+.heure {
+    position: absolute;
+    right: 128px;
+    margin: 8px 0px 0px 0px;
+    color: white;
+    font-size: 12px;
+    font-family: system-ui, sans-serif;
+    display: inline;
+    font-weight: lighter;
+}
