@@ -38,7 +38,20 @@
                 <a href="https://twitter.com/Lloyd_hawkeye"><img class="social-button" src="images/twitter.png" alt="twitter logo"/></a>
                 <a href="https://www.twitch.tv/lloydhawkeye"><img class="social-button" src="images/twitch.png" alt="Twitch logo"/></a>
                 <a href="https://github.com/LloydHawkeye"><img class="social-button" src="images/github.jpg" alt="github logo"/></a>
-        </div>
+                <div class="heure">
+                    <SCRIPT LANGUAGE="JavaScript">
+                        var maintenant=new Date();
+                        var heure=maintenant.getHours();
+                        var minutes=maintenant.getMinutes();
+                        minutes = checkTime(minutes);
+                        document.write(heure,"h",minutes);
+                        function checkTime(i) {
+                        if (i < 10) {i = "0" + i};
+                        return i;
+                        }
+                    </SCRIPT>
+                </div>
+            </div>
     </footer>
 </body>
 </html>
