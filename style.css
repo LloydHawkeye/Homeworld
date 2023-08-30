@@ -57,7 +57,7 @@ body {
     display: none;
     border-radius: 5px;
     box-shadow: black 1px 1px 1px;
-    margin-top: 7px;
+    margin-top: 6px;
 }
 
 .the-bar:hover .social-button {
