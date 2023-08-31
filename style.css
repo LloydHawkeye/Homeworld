@@ -120,6 +120,10 @@ body {
     display: inline;
 }
 
+.start-wxp:active #menu-wxp{
+    display: inline;
+}
+
 .heure {
     position: absolute;
     right: 128px;
