@@ -187,5 +187,16 @@ body {
 
 .formulaire {
 margin: 0px 4px;
-background-color: #ECE9D8;
+padding: 15px 0px 64px 44px;
+background-color: #EAEBDD;
+}
+
+.formulaire input {
+margin: 5px 0px;
+}
+
+.form-button {
+    position: relative;
+    bottom: -50px;
+    left: 470px;
 }
