@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lloyd Homeworld</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header">
+            <h1>Formulaire de Contact</h1>
+        </div>
+    </header>
+    <main>
+        <div class="contenu">
+            <div class="Winxp-windows-blank">
+                <div class="header-message">
+                    <p>Désolé l'application a quitté inopinement le systeme suite à une erreur N°72.
+                    Vous pouvez m'envoyer un petit message via ce formulaire.<br>
+                    (Spoiler alerte ça marche pas, je sais pas encore faire de backend)
+                    </p>
+                </div>
+                <div>
+                    <img id="outlook" src="images/outlook.png" alt="icon outlook">
+                </div>
+                <div class="division-bar"></div>
+                <div class="formulaire">
+                    <form action=""> <!-- pas d'action je sais pas encore faire le back -->
+                        <fieldset>
+                            <legend>Contact</legend>
+                            <label for="nom">Nom</label>
+                            <input type="text" name="nom" id="nom" placeholder="Nihorangina" required autofocus>
+                            <label for="prenom">prénom</label>
+                            <input type="text" name="prenom" id="prenom" placeholder="Nicolas" required>
+                            <label for="mail">Email</label>
+                            <input type="email" name="mail" id="mail" placeholder="Nicolas.Nihorangina@bébou.fr" required>
+                            <label for="message">Email</label>
+                            <textarea name="message" id="message" cols="30" rows="5" placeholder="Ton message" maxlength="300" required></textarea>
+                            <input type="submit" value="Envoyer">
+                        </fieldset>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="the-bar">
+                <div class="start-wxp">
+                    <img src="images/start-button.png" id="start-button" alt="bouton démarrer windows xp">
+                    <img src="images/start-button-hover.png" id="start-button-hover" alt="bouton démarrer windows xp">
+                    <img src="images/start-button-active.png" id="start-button-active" alt="bouton démarrer windows xp">
+                    <img src="images/start-menu.jpg" id="menu-wxp" alt="Menu windows xp"> 
+                    <p class="temp-message">Je ne sais pas encore comment garder le menu actif revenez donc plus tard.</p>
+                </div>
+                <div class="réseaux-sociaux">
+                    <a href="https://twitter.com/Lloyd_hawkeye"><img class="social-button" src="images/twitter.png" alt="twitter logo"/></a>
+                    <a href="https://www.twitch.tv/lloydhawkeye"><img class="social-button" src="images/twitch.png" alt="Twitch logo"/></a>
+                    <a href="https://github.com/LloydHawkeye"><img class="social-button" src="images/github.jpg" alt="github logo"/></a>
+                </div>
+                <div class="heure">
+                    <SCRIPT LANGUAGE="JavaScript">
+                        var maintenant=new Date();
+                        var heure=maintenant.getHours();
+                        var minutes=maintenant.getMinutes();
+                        minutes = checkTime(minutes);
+                        document.write(heure,":",minutes);
+                        function checkTime(i) {
+                        if (i < 10) {i = "0" + i};
+                        return i;
+                        }
+                    </SCRIPT>
+                </div>
+            </div>
+    </footer>
+</body>
+</html>

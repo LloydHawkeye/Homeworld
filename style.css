@@ -153,3 +153,39 @@ body {
     font-family: 'Lucida Console', sans-serif;
     font-size: 14px;
 }
+
+.Winxp-windows-blank {
+    background-image: url(images/window-blank.jpg);
+    width: 608px;
+    height: 418px;
+    border-radius: 9px 9px 0px 0px;
+    position: absolute;
+}
+
+.header-message {
+    padding: 5px 0px 5px 20px;
+    margin: 30px 105px 0px 10px;
+    font-family: tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#outlook {
+    position: absolute;
+    left: 555px;
+    top: 47px;
+    width: 35px;
+}
+
+.division-bar {
+    border-bottom: 1px #BDBCB7 solid;
+    width: 600px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.formulaire {
+margin: 0px 4px;
+background-color: #ECE9D8;
+}
