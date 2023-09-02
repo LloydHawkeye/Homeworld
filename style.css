@@ -200,3 +200,7 @@ margin: 5px 0px;
     bottom: -50px;
     left: 470px;
 }
+
+.formulaire textarea {
+    resize: none;
+}
