@@ -214,3 +214,9 @@ margin: 5px 0px;
     font-size: 15px;
     font-weight: 500;
 }
+
+.Winxp-windows-blank:hover .button-close {
+    display: block;
+    position: absolute;
+    left: 575px;
+}
