@@ -1,0 +1,76 @@
+
+.Winxp-windows-blank {
+    background-image: url(images/window-blank.jpg);
+    width: 608px;
+    height: 418px;
+    margin: auto;
+    border-radius: 9px 9px 0px 0px;
+    position: absolute;
+}
+
+.header-message {
+    padding: 5px 0px 5px 20px;
+    margin: 30px 105px 0px 10px;
+    font-family: tahoma, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+#outlook {
+    position: absolute;
+    left: 555px;
+    top: 47px;
+    width: 35px;
+}
+
+
+.division-bar {
+    border-bottom: 1px #BDBCB7 solid;
+    width: 600px;
+    margin: auto;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.formulaire {
+margin: 0px 4px;
+padding: 15px 0px 64px 44px;
+background-color: #EAEBDD;
+}
+
+.formulaire input {
+margin: 5px 0px;
+}
+
+.form-button {
+    position: relative;
+    bottom: -50px;
+    left: 470px;
+}
+
+.formulaire textarea {
+    resize: none;
+}
+
+.window-title
+{
+    position: absolute;
+    margin: 6px 15px;
+    color: white;
+    font-family: system-ui, sans-serif;;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.Winxp-windows-blank:hover .button-close {
+    display: block;
+    position: absolute;
+    left: 575px;
+}
+
+/* A rework mais flemme pour le moment */
+.contenu {
+    width: 608px;
+    height: 418px;
+    margin: auto;
+}
