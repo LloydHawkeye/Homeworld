@@ -5,12 +5,6 @@ body {
     margin: 0px;
 }
 
-.contenu {
-    width: 608px;
-    height: 418px;
-    margin: auto;
-}
-
 .notepad {
     background-image: url(images/notepad2.jpg);
     background-position: center;
@@ -25,7 +19,6 @@ body {
 }
 
 .notepad p {
-    text-align: left;
     padding: 0px 0px 10px 50px;
     margin: 0px;
     font-family: 'Lucida Console', sans-serif;
@@ -35,6 +28,19 @@ body {
 
 .win-text{
     padding-top: 80px;
+}
+
+.notepad:hover .button-close {
+    display: block;
+}
+
+.button-close img{
+    width: 25px;
+    margin: 4px 4px;
+}
+
+.button-close {
+    display: none;
 }
 
 .the-bar {
@@ -51,7 +57,7 @@ body {
     padding: 0px 3px;
 }
 
-.the-bar .social-button{
+.social-button{
     width: 20px;
     padding-top: 0px;
     display: none;
@@ -62,45 +68,6 @@ body {
 
 .the-bar:hover .social-button {
     display: inline ;
-}
-
-.button-close img{
-    width: 25px;
-    margin: 4px 4px;
-}
-
-.button-close {
-    display: none;
-}
-
-.notepad:hover .button-close {
-    display: block;
-}
-
-.mes-projet {
-    display: flex
-}
-
-.projet {
-    padding: 2px 10px;
-    margin: 5px;
-    height: 75px;
-}
-.projet a {
-    color: white;
-    padding-top: 5px;
-}
-
-.projet img{
- width: 50px;
- height: 50px;
- margin: auto;
- display: block;
- margin-bottom: 5px;
-}
-
-.projet:hover{
-    background-color:rgb(11, 97, 255);
 }
 
 .start-wxp img {
@@ -154,10 +121,39 @@ body {
     font-size: 14px;
 }
 
+/* Page projet */
+.mes-projet {
+    display: flex
+}
+
+.projet {
+    padding: 2px 10px;
+    margin: 5px;
+    height: 75px;
+}
+.projet a {
+    color: white;
+    padding-top: 5px;
+}
+
+.projet img{
+ width: 50px;
+ height: 50px;
+ margin: auto;
+ display: block;
+ margin-bottom: 5px;
+}
+
+.projet:hover{
+    background-color:rgb(11, 97, 255);
+}
+
+/* Page contact */
 .Winxp-windows-blank {
     background-image: url(images/window-blank.jpg);
     width: 608px;
     height: 418px;
+    margin: auto;
     border-radius: 9px 9px 0px 0px;
     position: absolute;
 }
@@ -176,6 +172,7 @@ body {
     top: 47px;
     width: 35px;
 }
+
 
 .division-bar {
     border-bottom: 1px #BDBCB7 solid;
@@ -219,4 +216,11 @@ margin: 5px 0px;
     display: block;
     position: absolute;
     left: 575px;
+}
+
+/* A rework mais flemme pour le moment */
+.contenu {
+    width: 608px;
+    height: 418px;
+    margin: auto;
 }
