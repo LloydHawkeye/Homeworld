@@ -46,6 +46,7 @@
                         var heure=maintenant.getHours();
                         var minutes=maintenant.getMinutes();
                         minutes = checkTime(minutes);
+                        heure = checkTime(heure)
                         document.write(heure,":",minutes);
                         function checkTime(i) {
                         if (i < 10) {i = "0" + i};
