@@ -77,13 +77,22 @@ body {
     display: inline;
 }
 
-.start-wxp:active #start-button-active, .start-wxp:active #menu-wxp, .start-wxp:active .temp-message {
+.start-wxp:active #start-button-active, .start-wxp:active #menu-wxp {
     display: inline;
 }
 
-.start-wxp:active #menu-wxp{
+.start-wxp #active {
+    width: 97px;
+    height: 30px;
+    position: absolute;
+    left: 0px;
+    margin: 0px;
+}
+
+.start-wxp #active:focus + #menu-wxp, .start-wxp #active:focus #start-button-active {
     display: inline;
 }
+
 
 .réseaux-sociaux {
     display: none;
@@ -121,7 +130,7 @@ body {
 
 #menu-wxp {
     padding: 0px;
-    margin: -478px 0px;
+    margin: -477px 0px;
     border-radius: 9px 9px 0px 0px;
 }
 
