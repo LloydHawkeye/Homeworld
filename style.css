@@ -132,3 +132,9 @@ body {
     font-family: 'Lucida Console', sans-serif;
     font-size: 14px;
 }
+
+@media screen and (aspect-ratio: 4/3) {
+    body {
+        background-image: url(images/Wxp-bg-4-3.jpg);
+    }
+}
