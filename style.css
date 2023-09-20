@@ -61,7 +61,7 @@ body {
     width: 100%;
     bottom: 0px;
     height: 30px;
-
+    display: flex;
 }
 
 .the-bar a {
@@ -71,13 +71,12 @@ body {
 .social-button{
     width: 20px;
     padding-top: 0px;
-    display: none;
     border-radius: 5px;
     box-shadow: black 1px 1px 1px;
     margin-top: 6px;
 }
 
-.the-bar:hover .social-button {
+.the-bar:hover .réseaux-sociaux {
     display: inline ;
 }
 
@@ -114,7 +113,7 @@ body {
 }
 
 .réseaux-sociaux {
-    display: inline;
+    display: none;
 }
 
 #menu-wxp {
