@@ -138,3 +138,15 @@ body {
         background-image: url(images/Wxp-bg-4-3.jpg);
     }
 }
+
+@media screen and (max-width : 1545px) {
+    body {
+        background-image: url(images/Wxp-bg-4-3.jpg);
+    }
+}
+
+@media screen and (max-width : 1185px) {
+    body {
+        background-image: url(images/Wxp-bg-tab.jpg);
+    }
+}
