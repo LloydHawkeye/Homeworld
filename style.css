@@ -30,17 +30,29 @@ body {
     padding-top: 80px;
 }
 
+.button-close {
+    display: none;
+    width: 19px;
+    height: 19px;
+    margin: 7px 7px;
+}
+.button-close a {
+    display: block;
+    width: 19px;
+    height: 19px;
+}
+
 .notepad:hover .button-close {
     display: block;
 }
 
 .button-close img{
-    width: 25px;
-    margin: 4px 4px;
+    width: 19px;
+    transition: transform 400ms;
 }
 
-.button-close {
-    display: none;
+.button-close:hover img{
+    transform: scale(1.15);
 }
 
 .the-bar {
