@@ -38,8 +38,7 @@ body {
 }
 .button-close a {
     display: block;
-    width: 19px;
-    height: 19px;
+    height: 100%;
 }
 
 .notepad:hover .button-close {
